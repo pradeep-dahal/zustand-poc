@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useNavigate, useParams } from "react-router-dom";
-import useBlogStore from "../../zustand/store";
+import useBlogStore from "../../zustand/useBlogStore";
 import { logRender } from "../../utils/logRender";
 import { Container, TextField, Button, Typography, Box } from "@mui/material";
 

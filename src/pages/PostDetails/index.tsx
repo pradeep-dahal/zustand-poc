@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import useBlogStore from "../../zustand/store";
+import useBlogStore from "../../zustand/useBlogStore";
 import { logRender } from "../../utils/logRender";
 import { Container, Typography, Button } from "@mui/material";
 
